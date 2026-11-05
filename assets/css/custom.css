@@ -35,3 +35,43 @@
   margin: 0 auto 40px;
   color: var(--secondary);
 }
+
+.email-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  font-size: 18px;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.2);
+  transition: transform 0.25s ease, bottom 0.3s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.email-float i {
+  color: var(--white);
+  line-height: 1;
+}
+
+.email-float:hover,
+.email-float:focus-visible {
+  color: var(--white);
+  background-color: var(--secondary);
+  transform: translateY(-3px);
+}
+
+.email-float:hover i,
+.email-float:focus-visible i {
+  color: var(--white);
+}
+
+.progress-wrap.active-progress + .email-float {
+  bottom: 78px;
+}
