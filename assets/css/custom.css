@@ -1,0 +1,37 @@
+/* Urban Craft Collective overrides */
+.header-area-7 .header__logo img,
+.copyright__logo img,
+.offset-logo img {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-4__inner .hero-4__content-left .btn-circle {
+  pointer-events: none;
+}
+
+.experience-4__item .title.static-stat {
+  font-size: 42px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+@media only screen and (max-width: 991px) {
+  .experience-4__item .title.static-stat {
+    font-size: 32px;
+  }
+}
+
+.contact-map {
+  width: 100%;
+  min-height: 420px;
+  border: 0;
+  filter: grayscale(1);
+}
+
+.projects__note {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  color: var(--secondary);
+}

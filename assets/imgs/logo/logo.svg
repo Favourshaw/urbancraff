@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48" role="img" aria-label="Urban Craft Collective">
+  <g fill="#111111">
+    <rect x="0" y="4" width="40" height="40" rx="2"/>
+    <text x="20" y="31" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#fefefe">UC</text>
+    <text x="52" y="22" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="600" letter-spacing="1.2">Urban Craft</text>
+    <text x="52" y="38" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="600" letter-spacing="3.4">COLLECTIVE</text>
+  </g>
+</svg>
